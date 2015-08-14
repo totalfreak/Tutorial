@@ -1,17 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing:border-box;
-}
-
-body {
-    width: 500px;
-    font-family: "Segoe UI", "Lucida Grande";
-}
-
 #wrapper{
-    width:100%;
+    width:500px;
     height:100%;
     display:flex;
     flex-direction:row;

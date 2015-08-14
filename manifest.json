@@ -11,12 +11,10 @@
 
     },
     "permissions": [
-    "activeTab",
-    "tabs", "http://*/*", "https://*/*"
   ],
     "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["<all_urls>"],
       "js": ["jquery.min.js", "script.js"],
       "css": ["styles.css"]
     }
