@@ -1,9 +1,13 @@
+#gachiBody{
+    width:500px;
+}
+
 #wrapper{
     width:500px;
     height:100%;
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
+    flex-wrap:wrap; 
 }
 
 .face img{
