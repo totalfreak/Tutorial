@@ -11,12 +11,6 @@
 
     },
     "permissions": [
-  ],
-    "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["jquery.min.js", "script.js"],
-    }
   ]
 
 }
